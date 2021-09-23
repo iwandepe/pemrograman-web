@@ -1,0 +1,14 @@
+/* Decrease container size */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.screen-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
