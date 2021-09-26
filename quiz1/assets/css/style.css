@@ -1,14 +1,39 @@
 /* Decrease container size */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     max-width: 720px;
   }
+} */
+
+.homepage-text {
+  font-size: 6vmax;
 }
 
-.screen-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
+.homepage-item:hover {
+  margin-top: -10px;
+  margin-bottom: -15px;
+  background-color: lighten(#ededed, 5%);
+  transition: background-color 0.4s ease-in-out;
+  z-index: 1;
+  zoom: 1.1;
+}
+
+.nounderline {
+  text-decoration: none !important;
+}
+
+.img-cover {
+  min-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  /* For mobile: */
+  .center-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
 }
