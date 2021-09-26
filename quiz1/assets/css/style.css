@@ -1,10 +1,3 @@
-/* Decrease container size */
-/* @media (min-width: 1200px) {
-  .container {
-    max-width: 720px;
-  }
-} */
-
 .homepage-text {
   font-size: 6vmax;
 }
@@ -25,6 +18,20 @@
 .img-cover {
   min-width: 100%;
   height: auto;
+}
+
+.skill-badge {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Decrease container size */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
